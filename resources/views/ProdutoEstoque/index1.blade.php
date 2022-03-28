@@ -4,10 +4,6 @@
 @section('links_adicionais')
   <link rel="stylesheet" href="{{asset('plugins/AdminLTE-3.2.0-rc/plugins/DataTable/datatables.min.css')}}">
 @endsection
-@section('scripts_adicionais')
-  <script src="{{asset('plugins/AdminLTE-3.2.0-rc/plugins/DataTable/datatables.min.js')}}"></script>
-  <script type="text/javascript" src="{{ asset('js/listar_produto_estoque.js') }}"></script>
-@endsection
 
 @section('conteudo')
   <div class="card">
@@ -40,4 +36,8 @@
       </div>
     </div>
   </div> 
+@endsection
+@section('scripts_adicionais')
+  <script src="{{asset('plugins/AdminLTE-3.2.0-rc/plugins/DataTable/datatables.min.js')}}"></script>
+  <script type="text/javascript" src="{{ asset('js/listar_produto_estoque.js') }}"></script>
 @endsection

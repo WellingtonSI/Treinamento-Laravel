@@ -2,12 +2,12 @@
 @section('htmlheader_titulo', 'Criar produto')
 
 @section('scripts_adicionais')
-<!-- <script type="text/javascript" src=" {{asset('plugins/maskedinput/jquery.maskedinput.min.js')}}"></script>
+<script type="text/javascript" src=" {{asset('plugins/maskedinput/jquery.maskedinput.min.js')}}"></script>
 <script  type="text/javascript" >
     $(document).ready( function($){
         $("#valor_produto").mask("99,99");
     });    
-</script> -->
+</script>
 
 @endsection
 
